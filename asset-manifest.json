@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DeployreactHarshit/static/css/main.5bda1623.css",
+    "main.js": "/DeployreactHarshit/static/js/main.7e882f57.js",
+    "index.html": "/DeployreactHarshit/index.html",
+    "main.5bda1623.css.map": "/DeployreactHarshit/static/css/main.5bda1623.css.map",
+    "main.7e882f57.js.map": "/DeployreactHarshit/static/js/main.7e882f57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bda1623.css",
+    "static/js/main.7e882f57.js"
+  ]
+}
