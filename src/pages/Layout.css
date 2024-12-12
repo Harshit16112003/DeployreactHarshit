@@ -1,0 +1,51 @@
+/* Layout.css */
+
+/* General navigation styling */
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the navigation links */
+    gap: 20px;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  /* Link styling */
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text */
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #575757; /* Slightly lighter background on hover */
+    color: #ddd; /* Lighter text on hover */
+  }
+  
+  /* Active link styling (optional, if using active class) */
+  nav a.active {
+    background-color: #007bff; /* Highlight for active page */
+    color: white;
+  }
+  
+  /* Content styling for the <Outlet> */
+  .outlet-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
